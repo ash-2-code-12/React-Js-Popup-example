@@ -1,0 +1,20 @@
+.about-section {
+  height: 100%;
+}
+.about-small {
+  width: 100%;
+}
+.about-large {
+  width: 100%;
+  display: none;
+}
+@media (min-width: 768px) {
+  .about-large {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .about-small {
+    display: none;
+  }
+}

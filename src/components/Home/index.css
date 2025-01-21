@@ -1,0 +1,20 @@
+.home-section {
+  height: 100%;
+}
+.home-small {
+  width: 100%;
+}
+.home-large {
+  width: 100%;
+  display: none;
+}
+@media (min-width: 768px) {
+  .home-large {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .home-small {
+    display: none;
+  }
+}
